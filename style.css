@@ -131,7 +131,7 @@ footer p {
     display: table;
     clear: both;
   }
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 800px) {
     .leftpart, .rightpart {   
       width: 100%;
     }
