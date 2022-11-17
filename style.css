@@ -189,9 +189,5 @@ footer p {
     text-decoration: none;
     color:#000000;
     background: #a8e91c;
-    -moz-transition: background-color 200ms ease-in;
-    -webkit-transition:background-color 200ms ease-in;
-    -ms-transition:background-color 200ms ease-in;
-    -o-transition: background-color 200ms ease-in;
     transition: background-color 200ms ease-in;
 }
