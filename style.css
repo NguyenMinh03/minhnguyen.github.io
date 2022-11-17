@@ -131,12 +131,12 @@ footer p {
     display: table;
     clear: both;
   }
-  @media only screen and (max-width: 720px) {
+  @media only screen and (max-width: 800px) {
     .leftpart, .rightpart {   
       width: 100%;
     }
     .main-content{
-        min-height: 10000px;
+        min-height: 7000px;
     }
     .rightpart{
         padding-left: 0px;
