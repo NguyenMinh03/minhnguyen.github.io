@@ -77,7 +77,6 @@
     width: 30%;
     margin-left: 19%;
 }
-
 .main-content{
     margin: auto;
     width: 1300px;
@@ -88,7 +87,6 @@
     margin-top: 30px;
     background-color:#FFD3B4;
 }
-
 body{
     margin: auto;
     background: #efefef;
@@ -105,14 +103,12 @@ body{
     margin-top: 2%;
     border: 1px solid #000000;
 }
-
 footer {
     margin-left: 3%;
     color: rgb(63, 58, 54);
     font-family: 'Mansalva', cursive;
     font-size: 30px;
 }
-
 footer a {
     text-decoration: none;
     color: rgb(63, 58, 54)
@@ -120,9 +116,6 @@ footer a {
 footer p {
     text-align: right;
 }
-
-
-
 .leftpart {   
     float: left;
     width: 70%;
