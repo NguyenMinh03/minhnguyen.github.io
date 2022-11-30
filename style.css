@@ -131,13 +131,13 @@ footer p {
     display: table;
     clear: both;
   }
-  @media only screen and (max-width: 1000px) {
+  @media only screen and (max-width: 1200px) {
     .leftpart, .rightpart {   
       width: 100%;
     }
     .main-content{
         min-height: 4400px;
-        width: 100%;
+        width: 95%;
     }
     .rightpart{
         padding-left: 0px;
@@ -147,13 +147,30 @@ footer p {
         padding-left: 100px;
     }
     .bottom-container{
-        width:auto;
+        width:100%;
     }
     .nav_bar {
-        width: 80%;
+        width: 90%;
+        margin-left: 50px;
     }
     .header{
-        width: 100%;
+        width: 95%;
+    }
+    .header img{
+     width: auto;
+     padding-left: 25px;
+     margin-top: 15px;
+    }
+    .header h1{
+        padding-left: 70px;
+        margin-right: 10px;
+       
+    }
+    .header .logo {
+        margin-left: 0px;
+        width: 50%;
+        height: 50%;
+        margin-top: 10px;
     }
     .logo img{
         width: 100%;
@@ -166,6 +183,10 @@ footer p {
         width: 30%;
         margin-left: 10px;
         padding-bottom: 20px;
+    }
+    .bottom-container {
+       margin-left: 1px;
+        margin-right: 30px;
     }
   }
 
@@ -210,4 +231,7 @@ footer p {
     color:#000000;
     background: #a8e91c;
     transition: background-color 200ms ease-in;
+}
+.main-content .Map{
+    margin-left: 50px;
 }
