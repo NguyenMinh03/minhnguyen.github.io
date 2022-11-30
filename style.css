@@ -131,12 +131,13 @@ footer p {
     display: table;
     clear: both;
   }
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 720px) {
     .leftpart, .rightpart {   
       width: 100%;
     }
     .main-content{
-        min-height: 5400px;
+        min-height: 4400px;
+        width: 100%;
     }
     .rightpart{
         padding-left: 0px;
@@ -147,6 +148,19 @@ footer p {
     }
     .bottom-container{
         width:auto;
+    }
+    .nav_bar {
+        width: 70%;
+    }
+    .header{
+        width: auto;
+    }
+    .logo img{
+        width: 100%;
+        height: 100%;
+    }
+    .header h1 {
+        font-size:100%;
     }
   }
 
