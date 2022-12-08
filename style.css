@@ -157,16 +157,18 @@ footer p {
         width: 95%;
     }
     .header img{
-     width: auto;
-     padding-left: 25px;
-     margin-top: 15px;
+        margin-left: 10px;
+        width: 70%;
+        height: 70%;
+        margin-top: 10px;
     }
     .header h1{
         padding-left: 70px;
         margin-right: 10px;
+        width: auto;
        
     }
-    .header .logo {
+    .header .Logo {
         margin-left: 0px;
         width: 50%;
         height: 50%;
