@@ -55,11 +55,12 @@
 .header h1{
     margin-top: 1%;
 }
-.logo {
+.header .logo {
     text-decoration: none;
     display: flex;
     margin-right: 5%;
     margin-left: 20px;
+    width: 30%;
 }
 
 .logo img {
@@ -112,35 +113,14 @@ footer a {
 footer p {
     text-align: right;
 }
-.leftpart {   
-    float: left;
-    width: 70%;
-    background-color:#FFEDDA;
-    
-  }
-.rightpart {
-    float: right;
-    width: 25%;
-    background-color: #FFEDDA;
-    padding-left: 50px;
-    min-height: 940px;
-  }
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+
   @media only screen and (max-width: 1200px) {
-    .leftpart, .rightpart {   
-      width: 100%;
-    }
+    
     .main-content{
         min-height: 4400px;
         width: 95%;
     }
-    .rightpart{
-        padding-left: 0px;
-    }
+    
     .VideoSanta{
         width: 70%;
         padding-left: 100px;
@@ -169,13 +149,13 @@ footer p {
     }
     .header .Logo {
         margin-left: 0px;
-        width: 50%;
-        height: 50%;
+        width: auto;
+        height:auto;
         margin-top: 10px;
     }
     .logo img{
-        width: 100%;
-        height: 100%;
+        width: auto;
+        height: auto;
     }
     .header h1 {
         font-size:100%;
@@ -192,14 +172,7 @@ footer p {
 
   }
 
-.leftpart h2 {
-    text-align: left;
-}
-.leftpart img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;;
-}
+
 .main-content p {
     font-family: 'Patrick Hand', cursive;
     padding-left: 30px;
