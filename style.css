@@ -75,13 +75,6 @@
     margin-left: 30px;
     width: 74%;
 }
-.logo img {
-    width: 150px;
-    height: 150px;
-    margin-bottom: 10px;
-    margin-right: 120px;
-    
-}
 
 .image{
     width: 30%;
@@ -144,6 +137,52 @@ footer p {
     display: table;
     clear: both;
   }
+  .leftpart h2 {
+    text-align: left;
+}
+.leftpart img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;;
+}
+.main-content p {
+    font-family: 'Patrick Hand', cursive;
+    padding-left: 30px;
+    padding-right: 20px;
+    font-size: larger;
+}
+.main-content h4{
+    padding-left: 70px;
+}
+.Navigateinpage ul{
+    font-family: 'Pacifico', cursive;;
+}
+.main-content button{
+    text-decoration: none;
+    color: #000000;
+    background:#D5ECC2;
+    border:1px solid #000000;
+    
+    padding: 29px 20px 20px 20px;
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    width: 70px;
+    display: block;
+    text-align: center;
+    margin-top: 46px;
+}
+
+.nav_bar ul li a#Home {
+    background: #FFD3B4 ;
+    color:#000000;
+    border-bottom: 1px solid #FFD3B4 ;
+}
+.nav_bar ul li a#Home:hover{
+    background: #ffffff;
+    color:#000000;
+}
 }
   @media only screen and (max-width: 1000px) {
     .leftpart, .rightpart {   
@@ -174,18 +213,18 @@ footer p {
         padding-left: 70px;
         margin-right: 10px;
         width: auto;
-        font-size:100%;
-       
+        font-size:  130%;     
     }
     .header .Logo1 img{
     
-        width: 110%;
+        width: 125%;
         height:auto;
-        margin-top: 10px;
+        margin-top: 20px;
+        
     }
-    .header .Logo2 img{
+    .header .Logo2 img{ 
     
-        width: 80%;
+        width: 100%;
         height:auto;
         
     }
