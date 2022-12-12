@@ -86,6 +86,9 @@
     margin-top: 30px;
     background-color:#FFD3B4;
 }
+.main-content img {
+    width: 80%;
+}
 body{
     margin: auto;
     background: #efefef;
@@ -128,6 +131,12 @@ footer p {
     padding-left: 50px;
     min-height: 940px;
   }
+.rightpart img{
+    width:20% ; 
+    margin-left: 100px; 
+    margin-right: auto; 
+    display: block;
+}
   .row:after {
     content: "";
     display: table;
@@ -233,16 +242,12 @@ footer p {
        margin-left: 1px;
         margin-right: 30px;
     }
-
+    .rightpart img{
+        margin-left: 270px;
   }
 
 .leftpart h2 {
     text-align: left;
-}
-.leftpart img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;;
 }
 .main-content p {
     font-family: 'Patrick Hand', cursive;
@@ -282,3 +287,4 @@ footer p {
     background: #ffffff;
     color:#000000;
 }
+  }
