@@ -1,3 +1,4 @@
+@media only screen and (max-width: 2000px){
 .container .nav_bar .Logo{
     width: 30%;
     margin-left: 19%;
@@ -58,20 +59,28 @@
 }
 .header h1{
     margin-top: 1%;
+    color:#FA7070;
+    white-space: nowrap; 
+    padding-left: 50px;
 }
-.header .logo {
+.header .Logo1 img{
     text-decoration: none;
     display: flex;
     margin-right: 5%;
-    margin-left: 20px;
-    width: 30%;
+    width: 110%;
 }
-
+.header .Logo2 img{
+    text-decoration: none;
+    display: flex;
+    margin-left: 30px;
+    width: 74%;
+}
 .logo img {
     width: 150px;
     height: 150px;
     margin-bottom: 10px;
     margin-right: 120px;
+    
 }
 
 .image{
@@ -135,7 +144,8 @@ footer p {
     display: table;
     clear: both;
   }
-  @media only screen and (max-width: 1200px) {
+}
+  @media only screen and (max-width: 1000px) {
     .leftpart, .rightpart {   
       width: 100%;
     }
@@ -160,31 +170,26 @@ footer p {
     .header{
         width: 95%;
     }
-    .header img{
-        margin-left: 10px;
-        width: 70%;
-        height: 70%;
-        margin-top: 10px;
-    }
     .header h1{
         padding-left: 70px;
         margin-right: 10px;
         width: auto;
+        font-size:100%;
        
     }
-    .header .Logo {
-        margin-left: 0px;
-        width: auto;
+    .header .Logo1 img{
+    
+        width: 110%;
         height:auto;
         margin-top: 10px;
     }
-    .logo img{
-        width: auto;
-        height: auto;
+    .header .Logo2 img{
+    
+        width: 80%;
+        height:auto;
+        
     }
-    .header h1 {
-        font-size:100%;
-    }
+
     .nav_bar .image{
         width: 30%;
         margin-left: 10px;
