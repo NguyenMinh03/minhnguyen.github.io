@@ -83,10 +83,6 @@
       
   }
   
-.image{
-    width: 30%;
-    margin-left: 19%;
-}
 .main-content{
     margin: auto;
     width: 1300px;
@@ -213,8 +209,8 @@ footer p {
     }
     .nav_bar .image{
         width: 30%;
-        margin-left: 10px;
-        padding-bottom: 20px;
+
+
     }
     .bottom-container {
        margin-left: 1px;
